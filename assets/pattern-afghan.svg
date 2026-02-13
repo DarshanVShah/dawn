@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+  <defs>
+    <pattern id="stars" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M30 0L33 20L50 10L36 25L55 30L35 35L50 50L30 40L10 50L25 35L5 30L24 25L10 10L27 20Z" fill="currentColor" opacity="0.15"/>
+    </pattern>
+  </defs>
+  <rect width="120" height="120" fill="url(#stars)"/>
+</svg>
