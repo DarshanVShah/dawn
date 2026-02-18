@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For You — Our Little Corner of the World</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="pattern-bg" aria-hidden="true"></div>
+
+  <nav class="nav">
+    <a href="#home" class="nav-link">Home</a>
+    <a href="#memories" class="nav-link">Memories</a>
+    <a href="#love" class="nav-link">Why You</a>
+    <a href="#done" class="nav-link">Our Story</a>
+    <a href="#planned" class="nav-link">Plans</a>
+    <a href="#notes" class="nav-link">Notes</a>
+    <a href="#music" class="nav-link">Music</a>
+    <a href="#study" class="nav-link">Study</a>
+    <a href="#quotes" class="nav-link">Quotes</a>
+  </nav>
+
+  <header id="home" class="hero">
+    <div class="hero-inner">
+      <p class="hero-dari">دل من — تور لپاره</p>
+      <h1 class="hero-title">For You</h1>
+      <p class="hero-subtitle">Our little corner of the world. Khush amadeed. &nbsp;<span class="pyaar">प्यार</span></p>
+      <a href="#memories" class="cta">Begin our story</a>
+    </div>
+    <div class="scroll-hint">↓</div>
+  </header>
+
+  <main>
+    <section id="memories" class="section section-memories">
+      <div class="container">
+        <h2 class="section-title"><span class="section-icon">✦</span> Favourite Memories</h2>
+        <p class="section-dari">یادونې — the ones we keep forever</p>
+        <div class="cards-grid">
+          <article class="card card-memory">
+            <div class="card-inner">
+              <h3>Our first chai together</h3>
+              <p>Like a scene from a Bollywood song — except with better chai. چای همیشه با تو بهتر است.</p>
+            </div>
+          </article>
+          <article class="card card-memory">
+            <div class="card-inner">
+              <h3>That laugh</h3>
+              <p>The one that makes everything else fade. Tum hi ho, meri duniya.</p>
+            </div>
+          </article>
+          <article class="card card-memory">
+            <div class="card-inner">
+              <h3>Add a memory</h3>
+              <p>Write something we'll look back on. <a href="#notes">Go to Notes →</a></p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="love" class="section section-love">
+      <div class="container">
+        <h2 class="section-title"><span class="section-icon">♥</span> Things I Love About You</h2>
+        <p class="section-dari">ستا سره مینه — from my heart</p>
+        <ul class="love-list">
+          <li>Your strength — like the mountains of Afghanistan and the spirit of every heroine who ever said "main tumhari hoon, tum mere ho."</li>
+          <li>Your smile — it could light up a whole diya.</li>
+          <li>How you care — the way you make chai, ask about my day, and make every moment matter.</li>
+          <li>Your culture, your family, your roots — I love learning every bit of it with you.</li>
+          <li>That you're my person. Tohfa hai tu.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="done" class="section section-done">
+      <div class="container">
+        <h2 class="section-title"><span class="section-icon">☆</span> Things We've Done</h2>
+        <p class="section-dari">موږ سره څه وکړل — our story so far</p>
+        <div class="timeline">
+          <div class="timeline-item">
+            <span class="timeline-dot"></span>
+            <div class="timeline-content">
+              <h3>Started this page</h3>
+              <p>A place just for us. More adventures to add here — together.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-dot"></span>
+            <div class="timeline-content">
+              <h3>Your turn</h3>
+              <p>Add what we've done in the Notes section. I'll add mine too.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="planned" class="section section-planned">
+      <div class="container">
+        <h2 class="section-title"><span class="section-icon">◈</span> Things We've Planned</h2>
+        <p class="section-dari">راشنې — what's next</p>
+        <div class="cards-grid">
+          <article class="card card-plan">
+            <div class="card-inner">
+              <h3>More chai dates</h3>
+              <p>Endless cups. Endless talks. Inshallah.</p>
+            </div>
+          </article>
+          <article class="card card-plan">
+            <div class="card-inner">
+              <h3>Watch our list</h3>
+              <p>Bollywood classics, Afghan stories, and everything in between.</p>
+            </div>
+          </article>
+          <article class="card card-plan">
+            <div class="card-inner">
+              <h3>Our future</h3>
+              <p>You and me. One day at a time. سره په راتلونکي کې.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="notes" class="section section-notes">
+      <div class="container">
+        <h2 class="section-title"><span class="section-icon">✎</span> Notes to Each Other</h2>
+        <p class="section-dari">یادښتونه — just for us two</p>
+        <p class="notes-hint">Add a thought, a memory, or a "I'm thinking of you." Both of you can write here (saved on this device).</p>
+        <div class="notes-area">
+          <textarea id="notesInput" class="notes-input" placeholder="Write something for each other... 💌" rows="5"></textarea>
+          <button type="button" class="btn btn-save" id="saveNotes">Save note</button>
+        </div>
+        <div class="notes-display" id="notesDisplay"></div>
+      </div>
+    </section>
+
+    <section id="music" class="section section-music">
+      <div class="container">
+        <h2 class="section-title"><span class="section-icon">♪</span> Our Playlist</h2>
+        <p class="section-dari">غږونه — the soundtrack of us</p>
+        <div class="embed-wrap">
+          <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1EJwUxyqsdAYC5?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="Spotify playlist"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section id="study" class="section section-study">
+      <div class="container">
+        <h2 class="section-title"><span class="section-icon">☕</span> Study Time — For When You're Grinding</h2>
+        <p class="section-dari">لوستل — you've got this</p>
+        <p class="study-intro">A little Pomodoro timer just for you. Cute messages below because you're amazing.</p>
+        <div class="pomodoro-wrap">
+          <div class="pomodoro">
+            <div class="pomodoro-mode" id="pomodoroMode">Focus</div>
+            <div class="pomodoro-display" id="pomodoroDisplay">25:00</div>
+            <div class="pomodoro-controls">
+              <button type="button" class="btn btn-pomodoro" id="pomodoroStart">Start</button>
+              <button type="button" class="btn btn-pomodoro" id="pomodoroReset">Reset</button>
+            </div>
+            <p class="pomodoro-message" id="pomodoroMessage">You're going to crush this. چای بعد از مطالعه؟</p>
+          </div>
+        </div>
+        <div class="motivation-grid" id="motivationGrid">
+          <!-- Filled by JS with cute/funny messages -->
+        </div>
+        <p class="study-link">Want more themes and to-dos? <a href="https://studywithme.io/aesthetic-pomodoro-timer/" target="_blank" rel="noopener">Aesthetic Pomodoro on StudyWithMe →</a></p>
+      </div>
+    </section>
+
+    <section id="quotes" class="section section-quotes">
+      <div class="container">
+        <h2 class="section-title"><span class="section-icon">"</span> Words on Love</h2>
+        <p class="section-dari">د عشق ویي — from the world to us</p>
+        <div class="quotes-grid">
+          <blockquote class="quote">"The heart has its reasons which reason knows not." <cite>— Blaise Pascal</cite></blockquote>
+          <blockquote class="quote">"Love is composed of a single soul inhabiting two bodies." <cite>— Aristotle</cite></blockquote>
+          <blockquote class="quote">"Where there is love there is life." <cite>— Mahatma Gandhi</cite></blockquote>
+          <blockquote class="quote">"Let yourself be silently drawn by the strange pull of what you really love." <cite>— Rumi</cite></blockquote>
+          <blockquote class="quote">"I have found the one whom my soul loves." <cite>— Song of Solomon</cite></blockquote>
+          <blockquote class="quote">"Tum hi ho, ab tum hi ho, zindagi ab tum hi ho." <cite>— Aashiqui 2</cite></blockquote>
+          <blockquote class="quote">"Dilwale dulhania le jayenge — the one who has a heart takes the bride home." <cite>— DDLJ</cite></blockquote>
+          <blockquote class="quote">"Love is not just looking at each other; it's looking in the same direction." <cite>— Antoine de Saint-Exupéry</cite></blockquote>
+          <blockquote class="quote">"دل به دل راه داره — heart finds a way to heart." <cite>— Persian proverb</cite></blockquote>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Made with ♥ for you. Always. — دل من تور لپاره</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
